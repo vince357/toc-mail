@@ -8,59 +8,37 @@
 </head>
 <?php
 function hr(){
-  echo('<tr><td><div class="inside-padding"><hr /></div></td></tr>'."\n");
+  echo('<tr><td valign="top"><div class="inside-padding"><hr class="hr" /></div></td></tr>'."\n");
 }
 ?>
 <body>
   <table border="0" cellpadding="0" cellspacing="0" width="100%" class="body-wrap" align="center">
-    <thead>
-      <!-- header1 -->
-      <tr>
-        <td class="header1 blue">
-          <div class="inside-padding">
-            <p align="center">Impossible de lire ou voir les images&nbsp;? <a href="#" class="blue">Afficher cet e-mail dans un navigateur</a>.</p>
-          </div>
-        </td>
-      </tr>
-      <!-- header2 -->
-      <tr>
-        <td>
-          <table>
-            <tr>
-              <td width="33.3333%" class="column text-center line-height0 white" style="background-color: #0c2e68; background: linear-gradient(135deg, #036CB4 0%, #0c2e68 75%);">
-                <b style="font-size:18px">
-                  <img src="./img/tocqueville-finance.gif" alt="Tocqueville Finance" width="200" height="150" border="0" />
-                </b>
-              </td>
-              <td width="66.6666%" class="column text-center line-height0">
-                <img src="./img/entete.jpg" alt="" width="400" height="150" border="0" />
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <!-- header3 -->
-      <tr>
-        <td>
-          <table>
-            <tr>
-              <td width="200">
-                <p class="text-center"><a href="#" class="header-link blue">NOS NEWS</a></p>
-              </td>
-              <td width="200">
-                <p class="text-center"><a href="#" class="header-link blue">NOS FONDS</a></p>
-              </td>
-              <td width="200">
-                <p class="text-center"><a href="#" class="header-link blue">NOS VIDÉOS</a></p>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </thead>
+    <tr>
+      <td>
+        <!-- header start -->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border: none;border-collapse: collapse;width: 100%;">
+          <tr>
+            <td width="33%" style="background-color: #0c2e68;background: linear-gradient(135deg, #036CB4 0%, #0c2e68 75%);padding: 0;text-align: center;line-height: 0;color: #ffffff; border: none;">
+              <img src="https://campaign-image.eu/zohocampaigns/2370000012282003_1646389995561_tocqueville_finance.jpg" alt="Tocqueville Finance" width="198" height="110" border="0" style="max-width: 100% !important;height: auto !important;">
+            </td>
+            <td width="67%" style="padding: 0;text-align: center;line-height: 0; border: none;">
+              <img src="https://campaign-image.eu/zohocampaigns/2370000012282003_1646390175668_entete.jpg" alt="" width="402" height="110" border="0" style="max-width: 100% !important;height: auto !important;">
+            </td>
+          </tr>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border: none;border-collapse: collapse;width: 100%;">
+          <tr>
+            <td width="200" align="center" style="padding: 0; border: none;"><a href="https://www.tocquevillefinance.fr/liste-des-news/" class="header-link blue" style="color: #0C2E68;text-decoration: none;font-size: 12px;font-weight: bold;display: block;padding: 16px 0;"><font face="sans-serif">NOS NEWS</font></a></td>
+            <td width="200" align="center" style="padding: 0; border: none;"><a href="https://www.tocquevillefinance.fr/nos-fonds/" class="header-link blue" style="color: #0C2E68;text-decoration: none;font-size: 12px;font-weight: bold;display: block;padding: 16px 0;"><font face="sans-serif">NOS FONDS</font></a></td>
+            <td width="200" align="center" style="padding: 0; border: none;"><a href="https://www.tocquevillefinance.fr/liste-des-news/?cat=video" class="header-link blue" style="color: #0C2E68;text-decoration: none;font-size: 12px;font-weight: bold;display: block;padding: 16px 0;"><font face="sans-serif">NOS VIDÉOS</font></a></td>
+          </tr>
+        </table>
+        <!-- header end -->
+      </td>
+    </tr>
     <!-- grey entry - no img -->
     <tr>
-      <td class="bg-grey">
+      <td valign="top" class="bg-grey">
         <div class="inside-padding text-left">
           <h2>Tocqueville Finance s’offre une seconde jeunesse</h2>
           <p>Devenue le pôle de gestion actions de LBP AM, Tocqueville Finance est entrée dans une nouvelle dynamique et enregistre désormais 13 milliards d’encours sous gestion et une collecte nette de près de XXXM€.</p>
@@ -74,7 +52,7 @@ function hr(){
     <?php hr(); ?>
     <!-- white entry - no img -->
     <tr>
-      <td>
+      <td valign="top">
         <div class="inside-padding text-left">
           <h2>Une offre rénovée</h2>
           <p>Tocqueville Finance n’a pas simplement changé de dimension au cours de ces dernières années, elle a aussi profondément remanié sa gamme.</p>
@@ -90,7 +68,7 @@ function hr(){
     <?php hr(); ?>
     <!-- grey entry - no img -->
     <tr>
-      <td class="bg-grey">
+      <td valign="top" class="bg-grey">
         <div class="inside-padding text-left">
           <h2>Développement à l’international</h2>
           <p>Ces transformations s’accompagnent de nouvelles ambitions commerciales, Tocqueville Finance ayant de fortes ambitions de développement en Europe à travers la création d’une Sicav de droit française. </p>
@@ -104,17 +82,17 @@ function hr(){
     <?php hr(); ?>
     <!-- white entry - img 1/2 - 1/2 -->
     <tr>
-      <td>
+      <td valign="top">
         <div class="inside-padding text-left">
           <h2>Nouveau logo, nouveau site web</h2>
           <p>Pour accompagner cette nouvelle étape de son histoire, Tocqueville Finance a souhaité faire peau neuve à travers une nouvelle identité&nbsp;:</p>
           <!-- table 1/2 - 1/2 -->
           <table>
             <tr>
-              <td class="column" width="284" style="width: 276px; padding-right: 8px;">
+              <td valign="top" class="column" width="284" style="width: 276px; padding-right: 8px;">
                 <p align="center"><img src="./img/logo-tocqueville-finance-sur-fond-blanc.gif" alt="" width="160" height="160" style="width: 160px; height: 160px;" /></p>
               </td>
-              <td class="column" width="284" style="width: 276px; padding-left: 8px;">
+              <td valign="top" class="column" width="284" style="width: 276px; padding-left: 8px;">
                 <p align="center"><img src="./img/logo-tocqueville-finance.gif" alt="" width="160" height="160" style="width: 160px; height: 160px;" /></p>
               </td>
             </tr>
@@ -125,10 +103,10 @@ function hr(){
           <!-- table 1/2 - 1/2 -->
           <table>
             <tr>
-              <td class="column" width="284" style="width: 276px; padding-right: 8px;">
+              <td valign="top" class="column" width="284" style="width: 276px; padding-right: 8px;">
                 <p align="center"><img src="./img/capture-accueil.jpg" alt="La page d’accueil" width="268" height="174" style="width: 268px; height: 174px;" /></p>
               </td>
-              <td class="column" width="284" style="width: 276px; padding-left: 8px;">
+              <td valign="top" class="column" width="284" style="width: 276px; padding-left: 8px;">
                 <p align="center"><img src="./img/capture-missions.jpg" alt="La page « Nos missions »" width="268" height="171" style="width: 268px; height: 171px;" /></p>
               </td>
             </tr>
@@ -137,10 +115,10 @@ function hr(){
           <!-- table 1/2 - 1/2 -->
           <table>
             <tr>
-              <td class="column" width="284" style="width: 276px; padding-right: 8px;">
+              <td valign="top" class="column" width="284" style="width: 276px; padding-right: 8px;">
                 <p align="center"><img src="./img/capture-isr.jpg" alt="La page « L’ISR au service d’une finance plus vertueuse »" width="268" height="122" style="width: 268px; height: 122px;" /></p>
               </td>
-              <td class="column" width="284" style="width: 276px; padding-left: 8px;">
+              <td valign="top" class="column" width="284" style="width: 276px; padding-left: 8px;">
                 <p align="center"><img src="./img/capture-fonds.jpg" alt="Une page détaillant l’un de nos fonds" width="268" height="228" style="width: 268px; height: 228px;" /></p>
               </td>
             </tr>
@@ -153,16 +131,16 @@ function hr(){
     <?php hr(); ?>
     <!-- grey entry - img 1/3 -->
     <tr>
-      <td class="bg-grey">
+      <td valign="top" class="bg-grey">
         <div class="inside-padding text-left">
           <h2>Planète Marché(s)</h2>
           <!-- table 1/3 - 2/3 -->
           <table>
             <tr>
-              <td class="column" width="190" style="width: 190px; padding-right: 8px;">
+              <td valign="top" class="column" width="190" style="width: 190px; padding-right: 8px;">
                 <p align="center"><img src="./img/sample1.jpg" alt="" width="146" height="146" style="width: 146px; height: 146px;" /></p>
               </td>
-              <td class="column" width="378" style="width: 378px; padding-left: 8px;">
+              <td valign="top" class="column" width="378" style="width: 378px; padding-left: 8px;">
                 <h3>Mardi 31 août avec Michel Saugné</h3>
                 <p>Interrogé par Grégoire Favet dans son émission Planète Marché(s), Michel Saugné, Directeur de la gestion de Tocqueville Finance a partagé avec les autres invités en plateau ses vues et analyses sur les actualités suivantes&nbsp;:</p>
                 <ul>
@@ -182,7 +160,7 @@ function hr(){
     <?php hr(); ?>
     <!-- white entry - img full width -->
     <tr>
-      <td>
+      <td valign="top">
         <div class="inside-padding text-left">
           <h2>Forum des investisseurs institutionnels : Quelle stratégie actions en 2021 ?</h2>
           <p align="center"><img src="./img/sample2.jpg" alt="" width="568" height="200" style="width: 568px; height: 200px;" /></p>
@@ -201,17 +179,17 @@ function hr(){
     <?php hr(); ?>
     <!-- grey entry - img 1/3 -->
     <tr>
-      <td class="bg-grey">
+      <td valign="top" class="bg-grey">
         <div class="inside-padding text-left">
           <h2>Les Globes de la Gestion 2021 récompensent Tocqueville Silver Age ISR</h2>
           <table>
             <tr>
-              <td class="column" width="190" style="width: 190px; padding-right: 8px;">
+              <td valign="top" class="column" width="190" style="width: 190px; padding-right: 8px;">
                 <p align="center">
                   <img src="./img/sample3.gif" alt="" width="163" height="149" style="width: 163px; height: 149px;" />
                 </p>
               </td>
-              <td class="column" width="378" style="width: 378px; padding-left: 8px;">
+              <td valign="top" class="column" width="378" style="width: 378px; padding-left: 8px;">
                 <p>A l'occasion de la 8ème édition des Globes de la Gestion organisée par le magazine Gestion de Fortune et Quantalys le 8 septembre dernier, Tocqueville Finance a reçu un prix dans la catégorie Actions Eur. en 2ème position avec le fonds Tocqueville Silver Age ISR.</p>
                 <p>Ce classement est établi sur la base des critères de perte maximale et de volatilité en période de baisse sur 3 ans. L’objectif de cette sélection : trouver des fonds qui, sur le long terme, ont réussi à créer de la surperformance tout en ayant su résister aux baisses importantes du marché ces dernières années. Ces données sont arrêtées au 30 juin 2021.</p>
                 <p><small><em>* Les performances passées ne présagent pas des performances futures, elles ne sont pas constantes dans le temps.</em></small></p>
@@ -226,7 +204,7 @@ function hr(){
     <?php hr(); ?>
     <!-- white entry - no img -->
     <tr>
-      <td>
+      <td valign="top">
         <div class="inside-padding text-left">
           <h2>Marchés à thème(s) : le retour des Small Caps ?</h2>
           <p><strong>Les small caps ont-elles retrouvé leur rythme de croisière au cours de l’été 2021 ?</strong></p>
@@ -240,12 +218,12 @@ function hr(){
     <?php hr(); ?>
     <!-- All funds -->
     <tr>
-      <td class="bg-blue">
+      <td valign="top" class="bg-blue">
         <h2 class="inside-padding text-left white">Détails de nos fonds</h2>
         <!-- table 1/3 - 1/3 - 1/3 -->
         <table>
           <tr>
-            <td class="column" width="190" style="width: 190px;">
+            <td valign="top" class="column" width="190" style="width: 190px;">
               <div class="inside-padding">
                 <p><a href="" class="white small">Tocqueville Value Europe ISR</a></p>
                 <p><a href="" class="white small">Tocqueville Dividende ISR</a></p>
@@ -254,7 +232,7 @@ function hr(){
                 <p><a href="" class="white small">Tocqueville Small Cap Euro ISR</a></p>
               </div>
             </td>
-            <td class="column" width="190" style="width: 190px;">
+            <td valign="top" class="column" width="190" style="width: 190px;">
               <div class="inside-padding">
                 <p><a href="" class="white small">Tocqueville Megatrends ISR</a></p>
                 <p><a href="" class="white small">Tocqueville Silver Age ISR</a></p>
@@ -263,7 +241,7 @@ function hr(){
                 <p><a href="" class="white small">Tocqueville France ISR</a></p>
               </div>
             </td>
-            <td class="column" width="190" style="width: 190px;">
+            <td valign="top" class="column" width="190" style="width: 190px;">
               <div class="inside-padding">
                 <p><a href="" class="white small">Tocqueville Actions Finance ISR</a></p>
                 <p><a href="" class="white small">Tocqueville Gold</a></p>
@@ -281,7 +259,7 @@ function hr(){
     <?php hr(); ?>
     <!-- Teams -->
     <tr>
-      <td>
+      <td valign="top">
         <div class="inside-padding text-left">
           <h2 class="text-center">Notre équipe est à votre disposition pour toute question</h2>
           <h3>Distribution</h3>
@@ -289,11 +267,11 @@ function hr(){
         <div class="inside-padding-left text-left">
           <table>
             <tr>
-              <td class="column" width="194" style="width: 194px; padding-right: 16px;">
+              <td valign="top" class="column" width="194" style="width: 194px; padding-right: 16px;">
                 <p><img src="./img/teams/FRELET-DESCLAUX-Caroline_web-185x300.jpg" alt="Photo" height="225" class="trombi" /></p>
                 <table>
                   <tr>
-                    <td class="team-mate-name-and-position"><span class="blue"><strong>Caroline Frelet-Desclaux</strong></span><br />
+                    <td valign="top" class="team-mate-name-and-position"><span class="blue"><strong>Caroline Frelet-Desclaux</strong></span><br />
                       Directeur du développement</td>
                   </tr>
                 </table>
@@ -303,11 +281,11 @@ function hr(){
                 </p>
                 <p>&nbsp;</p>
               </td>
-              <td class="column" width="194" style="width: 194px; padding-right: 16px;">
+              <td valign="top" class="column" width="194" style="width: 194px; padding-right: 16px;">
                 <p><img src="./img/teams/VERMER-Charlotte-1-237x300.jpg" alt="Photo" height="225" class="trombi" /></p>
                 <table>
                   <tr>
-                    <td class="team-mate-name-and-position"><span class="blue"><strong>Charlotte Vermer</strong></span><br />
+                    <td valign="top" class="team-mate-name-and-position"><span class="blue"><strong>Charlotte Vermer</strong></span><br />
                       Directeur de la Distribution</td>
                   </tr>
                 </table>
@@ -317,12 +295,12 @@ function hr(){
                 </p>
                 <p>&nbsp;</p>
               </td>
-              <td class="column" width="194" style="width: 194px; padding-right: 16px;">
+              <td valign="top" class="column" width="194" style="width: 194px; padding-right: 16px;">
                 <p><img src="./img/teams/DERVEAUX-KISSI-Bouchra-237x300.jpg" alt="Photo" height="225" class="trombi" />
                 </p>
                 <table>
                   <tr>
-                    <td class="team-mate-name-and-position"><span class="blue"><strong>Bouchra Derveaux-Kissi</strong></span><br />
+                    <td valign="top" class="team-mate-name-and-position"><span class="blue"><strong>Bouchra Derveaux-Kissi</strong></span><br />
                       Responsable Partenariats</td>
                   </tr>
                 </table>
@@ -334,11 +312,11 @@ function hr(){
               </td>
             </tr>
             <tr>
-              <td class="column" width="194" style="width: 194px; padding-right: 16px;">
+              <td valign="top" class="column" width="194" style="width: 194px; padding-right: 16px;">
                 <p><img src="./img/teams/DE-TREDERN-Edwin-237x300.jpg" alt="Photo" height="225" class="trombi" /></p>
                 <table>
                   <tr>
-                    <td class="team-mate-name-and-position"><span class="blue"><strong>Edwin De Tredern</strong></span><br />
+                    <td valign="top" class="team-mate-name-and-position"><span class="blue"><strong>Edwin De Tredern</strong></span><br />
                       Responsable Partenariats</td>
                   </tr>
                 </table>
@@ -348,11 +326,11 @@ function hr(){
                 </p>
                 <p>&nbsp;</p>
               </td>
-              <td class="column" width="194" style="width: 194px; padding-right: 16px;">
+              <td valign="top" class="column" width="194" style="width: 194px; padding-right: 16px;">
                 <p><img src="./img/teams/PRETE-Marco-240x300.jpg" alt="Photo" height="225" class="trombi" /></p>
                 <table>
                   <tr>
-                    <td class="team-mate-name-and-position"><span class="blue"><strong>Marco Prete</strong></span><br />
+                    <td valign="top" class="team-mate-name-and-position"><span class="blue"><strong>Marco Prete</strong></span><br />
                       Responsable Commercial Distribution</td>
                   </tr>
                 </table>
@@ -360,11 +338,11 @@ function hr(){
                 <p><a href="mailto:marco.prete@tocquevillefinance.fr">Email</a></p>
                 <p>&nbsp;</p>
               </td>
-              <td class="column" width="194" style="width: 194px; padding-right: 16px;">
+              <td valign="top" class="column" width="194" style="width: 194px; padding-right: 16px;">
                 <p><img src="./img/teams/POUSSARD-Basile-237x300.jpg" alt="Photo" height="225" class="trombi" /></p>
                 <table>
                   <tr>
-                    <td class="team-mate-name-and-position"><span class="blue"><strong>Basile Poussard</strong></span><br />
+                    <td valign="top" class="team-mate-name-and-position"><span class="blue"><strong>Basile Poussard</strong></span><br />
                       Sales assistant</td>
                   </tr>
                 </table>
@@ -383,12 +361,12 @@ function hr(){
         <div class="inside-padding-left text-left">
           <table>
             <tr>
-              <td class="column" width="194" style="width: 194px; padding-right: 16px;">
+              <td valign="top" class="column" width="194" style="width: 194px; padding-right: 16px;">
                 <p><img src="./img/teams/BOUSSON-Jean-Francois-237x300.jpg" alt="Photo" height="225" class="trombi" />
                 </p>
                 <table>
                   <tr>
-                    <td class="team-mate-name-and-position"><span class="blue"><strong>Jean-François Bousson</strong></span><br />
+                    <td valign="top" class="team-mate-name-and-position"><span class="blue"><strong>Jean-François Bousson</strong></span><br />
                       Responsable Service Clients, groupe LBP AM</td>
                   </tr>
                 </table>
@@ -398,11 +376,11 @@ function hr(){
                 </p>
                 <p>&nbsp;</p>
               </td>
-              <td class="column" width="194" style="width: 194px; padding-right: 16px;">
+              <td valign="top" class="column" width="194" style="width: 194px; padding-right: 16px;">
                 <p><img src="./img/teams/VERMER-Charlotte-1-237x300.jpg" alt="Photo" height="225" class="trombi" /></p>
                 <table>
                   <tr>
-                    <td class="team-mate-name-and-position"><span class="blue"><strong>Pierre-Edouard Chapin</strong></span><br />
+                    <td valign="top" class="team-mate-name-and-position"><span class="blue"><strong>Pierre-Edouard Chapin</strong></span><br />
                       Head of Distributor Clients, LBP AM Group</td>
                   </tr>
                 </table>
@@ -422,10 +400,10 @@ function hr(){
       <?php hr(); ?>
       <!-- footer -->
       <tr>
-        <td>
+        <td valign="top">
           <table>
             <tr>
-              <td class="footer bg-blue white">
+              <td valign="top" class="footer bg-blue white">
                 <div class="inside-padding">
                   &nbsp;
                   <p align="center"><img src="./img/linkedin.gif" alt="Suivez nous sur LinkedIn" width="35" height="35" style="width: 35px; height: 35px;" /></p>

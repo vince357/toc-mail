@@ -54,10 +54,6 @@
     border-collapse: collapse;
     width: 100%;
   }
-  tr,
-  td {
-    vertical-align: top;
-  }
   td {
     padding: 0;
   }
@@ -84,14 +80,12 @@
     background-color: #ffffff;
   }
 
-  .header1 {
-    font-size: 13px;
-  }
-
   .header-link {
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
+    display: block;
+    padding: 16px 0;
   }
 
   h2 {
@@ -105,7 +99,7 @@
     font-size: 19px;
     margin-top: 24px;
   }
-  hr {
+  .hr {
     border: none;
     background-color: #e62b76;
     height: 3px;
@@ -113,11 +107,7 @@
     font-size: 1px;
     margin: 0;
   }
-  hr.tiny {
-    width: 20px;
-    height: 1px;
-  }
-
+  
   .small {
     font-size: 12px;
   }
